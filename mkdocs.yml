@@ -4,8 +4,13 @@ repo_name: FadiZahhar/new-ai-training
 repo_url: https://github.com/FadiZahhar/new-ai-training
 extra_css:
   - assets/css/training-game.css
+  - assets/css/docs-meta.css
+  - assets/css/prompt-generator.css
 extra_javascript:
   - assets/js/training-game.js
+  - assets/js/docs-meta.js
+  - assets/js/prompt-generator.js
+  - assets/js/certificate-generator.js
 theme:
   name: material
   features:
@@ -15,6 +20,7 @@ theme:
     - content.code.copy
 nav:
   - Home: index.md
+  - Start Here: start-here.md
   - Learning Path:
       - Overview: learning-path/00-overview.md
       - How to Use This Repo: learning-path/01-how-to-use-this-repo.md
@@ -63,6 +69,7 @@ nav:
       - Submission Checklist: requirements/submission-checklist.md
   - References:
       - Extracted Reference Map: references/extracted-reference-map.md
+      - Glossary: references/glossary.md
   - Team Playbook:
       - AI Dev Workflow: team-playbook/ai-dev-workflow.md
       - Prompting Standards: team-playbook/prompting-standards.md
@@ -71,6 +78,11 @@ nav:
   - Practice:
       - Labs: practice/labs.md
       - Prompt Library: practice/prompt-library.md
+      - Prompt Generator Tool: practice/prompt-generator.md
+      - Certificate Generator: practice/certificate-generator.md
+      - Template Bundles: practice/template-bundles.md
       - PRD Template: practice/templates/prd-template.md
       - Task Breakdown Template: practice/templates/task-breakdown-template.md
       - Prompt Template: practice/templates/prompt-template.md
+  - Arabic (Starter):
+      - ابدأ هنا: i18n/ar/start-here.md

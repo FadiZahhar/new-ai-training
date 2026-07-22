@@ -102,3 +102,44 @@ Return:
 
 ## Final ownership note
 Always review and verify AI output before accepting changes.
+
+## Copy-ready template
+~~~markdown
+# Prompt Draft
+
+## Context
+- Repository:
+- Module/feature:
+- Files:
+- Current behavior:
+
+## Objective
+
+## Constraints
+- Do not edit unrelated files
+- Preserve intended behavior
+- State assumptions and uncertainty
+
+## Inputs
+- Requirement:
+- Edge cases:
+- Test expectations:
+
+## Output format
+1) Plan
+2) Files to change
+3) Steps
+4) Verification
+5) Risks
+
+## Prompt
+```text
+You are a senior engineer working in <repo>.
+Objective: <objective>
+Context files: <files>
+Constraints:
+- ...
+Output format:
+- ...
+```
+~~~

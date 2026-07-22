@@ -1,0 +1,27 @@
+.prompt-gen {
+  display: grid;
+  gap: 0.65rem;
+}
+
+.prompt-gen label {
+  display: grid;
+  gap: 0.3rem;
+  font-size: 0.92rem;
+}
+
+.prompt-gen input,
+.prompt-gen select,
+.prompt-gen textarea {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  padding: 0.45rem 0.55rem;
+  font: inherit;
+}
+
+.prompt-gen textarea {
+  min-height: 90px;
+}
+
+#pg-result {
+  min-height: 280px;
+}

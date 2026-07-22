@@ -1,0 +1,11 @@
+.doc-meta-footer {
+  margin-top: 2rem;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+  padding-top: 0.8rem;
+  font-size: 0.85rem;
+  opacity: 0.85;
+}
+
+.doc-meta-footer p {
+  margin: 0.2rem 0;
+}

@@ -67,3 +67,10 @@ Summarize this change for team handoff:
 
 ## Usage rule
 Treat prompts as starting points, not source of truth. Keep ownership by validating every accepted output.
+
+## Generate module prompt files
+Use the tool to generate downloadable `.md` prompts for Module 1 examples:
+
+- [Mindset Reflection Generator](../../practice/prompt-generator.md?module=module-1&topic=Mindset+Reflection)
+- [Prompt Structure Practice Generator](../../practice/prompt-generator.md?module=module-1&topic=Prompt+Structure+Practice)
+- [Prompt Refinement Generator](../../practice/prompt-generator.md?module=module-1&topic=Prompt+Refinement+Exercise)

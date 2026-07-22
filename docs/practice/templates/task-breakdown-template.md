@@ -69,3 +69,39 @@
 - What is pending:
 - Known limitations:
 - Suggested next step:
+
+## Copy-ready template
+```markdown
+# Task Breakdown
+
+## Task summary
+
+## Definition of done
+- [ ]
+- [ ]
+
+## Milestones
+1.
+2.
+3.
+
+## Work breakdown structure
+
+## Task table
+| Task ID | Task | Owner | Priority | Status | Dependency | Evidence |
+| --- | --- | --- | --- | --- | --- | --- |
+| T1 | | | | | | |
+
+## Risk checkpoints
+
+## Verification checklist
+- [ ]
+- [ ]
+
+## AI prompt log
+| Prompt goal | Prompt used | Output quality | Action taken |
+| --- | --- | --- | --- |
+| | | | |
+
+## Handoff summary
+```

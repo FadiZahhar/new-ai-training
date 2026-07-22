@@ -99,3 +99,46 @@ Use clear, testable criteria.
 - Rollout plan:
 - Monitoring/validation after rollout:
 - Handoff notes for teammates:
+
+## Copy-ready template
+```markdown
+# Product Requirements Document
+
+## Problem
+
+## Background and context
+
+## Scope
+- In scope:
+- Out of scope:
+
+## Users and use cases
+
+## Goals and success metrics
+
+## Functional requirements
+1.
+2.
+3.
+
+## Non-functional requirements
+
+## UX and interaction notes
+
+## Data and API impact
+
+## Risks and mitigations
+
+## Dependencies
+
+## Test and verification strategy
+
+## Acceptance Criteria
+1. Given ...
+2. Given ...
+3. Given ...
+
+## AI usage and ownership notes
+
+## Rollout and handoff
+```
