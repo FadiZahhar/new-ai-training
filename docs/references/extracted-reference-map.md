@@ -3,17 +3,17 @@
 This page consolidates key references extracted from the course source files so learners can quickly connect each source to practical outcomes.
 
 ## Core source files
-- <a href="../assets/pdf/module-1-lecture-notes.pdf" target="_blank" rel="noopener noreferrer">Module 1 Lecture Notes (PDF)</a>
-- <a href="../assets/pdf/module-2-lecture-notes.pdf" target="_blank" rel="noopener noreferrer">Module 2 Lecture Notes (PDF)</a>
-- <a href="../assets/pdf/module-2-additional-readings.pdf" target="_blank" rel="noopener noreferrer">Module 2 Additional Readings (PDF)</a>
-- <a href="../assets/pdf/module-3-lecture-notes.pdf" target="_blank" rel="noopener noreferrer">Module 3 Lecture Notes (PDF)</a>
-- <a href="../assets/pdf/module-3-additional-readings.pdf" target="_blank" rel="noopener noreferrer">Module 3 Additional Readings (PDF)</a>
-- <a href="../assets/pdf/module-4-lecture-notes.pdf" target="_blank" rel="noopener noreferrer">Module 4 Lecture Notes (PDF)</a>
-- <a href="../assets/pdf/module-4-additional-readings.pdf" target="_blank" rel="noopener noreferrer">Module 4 Additional Readings (PDF)</a>
-- <a href="../assets/pdf/module-5-prompt-library.pdf" target="_blank" rel="noopener noreferrer">Module 5 Prompt Library (PDF)</a>
-- <a href="../assets/pdf/module-5-additional-readings.pdf" target="_blank" rel="noopener noreferrer">Module 5 Additional Readings (PDF)</a>
-- <a href="../assets/pdf/final-course-project-simplified.pdf" target="_blank" rel="noopener noreferrer">Final Course Project Simplified (PDF)</a>
-- <a href="../assets/pdf/mid-course-requirement.docx" target="_blank" rel="noopener noreferrer">Mid-Course Requirement (DOCX)</a>
+- <a href="https://fadizahhar.github.io/new-ai-training/assets/pdf/module-1-lecture-notes.pdf" target="_blank" rel="noopener noreferrer">Module 1 Lecture Notes (PDF)</a>
+- <a href="https://fadizahhar.github.io/new-ai-training/assets/pdf/module-2-lecture-notes.pdf" target="_blank" rel="noopener noreferrer">Module 2 Lecture Notes (PDF)</a>
+- <a href="https://fadizahhar.github.io/new-ai-training/assets/pdf/module-2-additional-readings.pdf" target="_blank" rel="noopener noreferrer">Module 2 Additional Readings (PDF)</a>
+- <a href="https://fadizahhar.github.io/new-ai-training/assets/pdf/module-3-lecture-notes.pdf" target="_blank" rel="noopener noreferrer">Module 3 Lecture Notes (PDF)</a>
+- <a href="https://fadizahhar.github.io/new-ai-training/assets/pdf/module-3-additional-readings.pdf" target="_blank" rel="noopener noreferrer">Module 3 Additional Readings (PDF)</a>
+- <a href="https://fadizahhar.github.io/new-ai-training/assets/pdf/module-4-lecture-notes.pdf" target="_blank" rel="noopener noreferrer">Module 4 Lecture Notes (PDF)</a>
+- <a href="https://fadizahhar.github.io/new-ai-training/assets/pdf/module-4-additional-readings.pdf" target="_blank" rel="noopener noreferrer">Module 4 Additional Readings (PDF)</a>
+- <a href="https://fadizahhar.github.io/new-ai-training/assets/pdf/module-5-prompt-library.pdf" target="_blank" rel="noopener noreferrer">Module 5 Prompt Library (PDF)</a>
+- <a href="https://fadizahhar.github.io/new-ai-training/assets/pdf/module-5-additional-readings.pdf" target="_blank" rel="noopener noreferrer">Module 5 Additional Readings (PDF)</a>
+- <a href="https://fadizahhar.github.io/new-ai-training/assets/pdf/final-course-project-simplified.pdf" target="_blank" rel="noopener noreferrer">Final Course Project Simplified (PDF)</a>
+- <a href="https://fadizahhar.github.io/new-ai-training/assets/pdf/mid-course-requirement.docx" target="_blank" rel="noopener noreferrer">Mid-Course Requirement (DOCX)</a>
 
 ## Module-by-module extracted value
 

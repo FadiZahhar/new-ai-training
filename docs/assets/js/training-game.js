@@ -267,7 +267,7 @@
     {
       id: "reading-2",
       title: "Reading Mission: Module 2 Additional Reading",
-      sourceUrl: "../../assets/pdf/module-2-additional-readings.pdf",
+      sourceUrl: "https://fadizahhar.github.io/new-ai-training/assets/pdf/module-2-additional-readings.pdf",
       sourcePageUrl: "../../modules/module-2/additional-reading/",
       questions: [
         {
@@ -303,7 +303,7 @@
     {
       id: "reading-3",
       title: "Reading Mission: Module 3 Additional Reading",
-      sourceUrl: "../../assets/pdf/module-3-additional-readings.pdf",
+      sourceUrl: "https://fadizahhar.github.io/new-ai-training/assets/pdf/module-3-additional-readings.pdf",
       sourcePageUrl: "../../modules/module-3/additional-reading/",
       questions: [
         {
@@ -339,7 +339,7 @@
     {
       id: "reading-4",
       title: "Reading Mission: Module 4 Additional Reading",
-      sourceUrl: "../../assets/pdf/module-4-additional-readings.pdf",
+      sourceUrl: "https://fadizahhar.github.io/new-ai-training/assets/pdf/module-4-additional-readings.pdf",
       sourcePageUrl: "../../modules/module-4/additional-reading/",
       questions: [
         {
@@ -380,7 +380,7 @@
     {
       id: "reading-5",
       title: "Reading Mission: Module 5 Additional Reading",
-      sourceUrl: "../../assets/pdf/module-5-additional-readings.pdf",
+      sourceUrl: "https://fadizahhar.github.io/new-ai-training/assets/pdf/module-5-additional-readings.pdf",
       sourcePageUrl: "../../modules/module-5/additional-reading/",
       questions: [
         {

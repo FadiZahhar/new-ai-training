@@ -1,7 +1,7 @@
 # Final Project Requirement
 
 ## Source
-- <a href="../assets/pdf/final-course-project-simplified.pdf" target="_blank" rel="noopener noreferrer">Final Course Project Simplified (PDF)</a>
+- <a href="https://fadizahhar.github.io/new-ai-training/assets/pdf/final-course-project-simplified.pdf" target="_blank" rel="noopener noreferrer">Final Course Project Simplified (PDF)</a>
 
 ## Goal
 Prepare the Task Tracker for teammate handoff and release-readiness with strong evidence of AI ownership.

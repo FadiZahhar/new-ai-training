@@ -1,7 +1,7 @@
 # Module 2 Lecture Notes
 
 ## Source
-- <a href="../../assets/pdf/module-2-lecture-notes.pdf" target="_blank" rel="noopener noreferrer">Module 2 Lecture Notes (PDF)</a>
+- <a href="https://fadizahhar.github.io/new-ai-training/assets/pdf/module-2-lecture-notes.pdf" target="_blank" rel="noopener noreferrer">Module 2 Lecture Notes (PDF)</a>
 
 ## Key ideas
 1. Use file-aware AI workflows in the IDE so prompts are grounded in actual project files.

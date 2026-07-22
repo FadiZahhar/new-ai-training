@@ -1,7 +1,7 @@
 # Mid-Course Requirement
 
 ## Source
-- <a href="../assets/pdf/mid-course-requirement.docx" target="_blank" rel="noopener noreferrer">Mid-Course Requirement (DOCX)</a>
+- <a href="https://fadizahhar.github.io/new-ai-training/assets/pdf/mid-course-requirement.docx" target="_blank" rel="noopener noreferrer">Mid-Course Requirement (DOCX)</a>
 
 ## Goal
 Extend the existing Task Tracker by adding **two scoped end-to-end features** while proving a disciplined AI-assisted engineering workflow.

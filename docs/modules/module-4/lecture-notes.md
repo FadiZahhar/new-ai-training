@@ -1,7 +1,7 @@
 # Module 4 Lecture Notes
 
 ## Source
-- <a href="../../assets/pdf/module-4-lecture-notes.pdf" target="_blank" rel="noopener noreferrer">Module 4 Lecture Notes (PDF)</a>
+- <a href="https://fadizahhar.github.io/new-ai-training/assets/pdf/module-4-lecture-notes.pdf" target="_blank" rel="noopener noreferrer">Module 4 Lecture Notes (PDF)</a>
 
 ## Key ideas
 1. Treat AI-generated infrastructure files as drafts until verified.
