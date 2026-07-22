@@ -19,6 +19,7 @@ nav:
       - Module 1:
           - Overview: modules/module-1/overview.md
           - Lecture Notes: modules/module-1/lecture-notes.md
+          - Prompt Library Reference: modules/module-1/prompt-library.md
           - Additional Reading: modules/module-1/additional-reading.md
           - Q&A: modules/module-1/qa.md
           - Exercises: modules/module-1/exercises.md

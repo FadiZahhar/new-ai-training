@@ -1,7 +1,7 @@
 # Module 5 Lecture Notes
 
 ## Source
-- [Module 5 Prompt Library (PDF)](../../assets/pdf/module-5-prompt-library.pdf)
+- <a href="../../assets/pdf/module-5-prompt-library.pdf" target="_blank" rel="noopener noreferrer">Module 5 Prompt Library (PDF)</a>
 
 ## Key ideas
 1. Module 5 is governance-first: AI proposes, you grade.

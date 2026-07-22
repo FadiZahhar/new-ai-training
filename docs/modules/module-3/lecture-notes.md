@@ -1,7 +1,7 @@
 # Module 3 Lecture Notes
 
 ## Source
-- [Module 3 Lecture Notes (PDF)](../../assets/pdf/module-3-lecture-notes.pdf)
+- <a href="../../assets/pdf/module-3-lecture-notes.pdf" target="_blank" rel="noopener noreferrer">Module 3 Lecture Notes (PDF)</a>
 
 ## Key ideas
 1. Frontend work is incremental: layout, data fetching, interaction, and persistence.

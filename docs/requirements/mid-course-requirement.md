@@ -1,7 +1,7 @@
 # Mid-Course Requirement
 
 ## Source
-- [Mid-Course Requirement (DOCX)](../assets/pdf/mid-course-requirement.docx)
+- <a href="../assets/pdf/mid-course-requirement.docx" target="_blank" rel="noopener noreferrer">Mid-Course Requirement (DOCX)</a>
 
 ## Goal
 Extend the existing Task Tracker by adding **two scoped end-to-end features** while proving a disciplined AI-assisted engineering workflow.

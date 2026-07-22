@@ -1,7 +1,7 @@
 # Final Project Requirement
 
 ## Source
-- [Final Course Project Simplified (PDF)](../assets/pdf/final-course-project-simplified.pdf)
+- <a href="../assets/pdf/final-course-project-simplified.pdf" target="_blank" rel="noopener noreferrer">Final Course Project Simplified (PDF)</a>
 
 ## Goal
 Prepare the Task Tracker for teammate handoff and release-readiness with strong evidence of AI ownership.
