@@ -1,0 +1,69 @@
+site_name: AI Training Program
+site_description: Team learning journey to become better AI-assisted developers
+repo_name: FadiZahhar/new-ai-training
+repo_url: https://github.com/FadiZahhar/new-ai-training
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
+nav:
+  - Home: index.md
+  - Learning Path:
+      - Overview: learning-path/00-overview.md
+      - How to Use This Repo: learning-path/01-how-to-use-this-repo.md
+      - Assessment Strategy: learning-path/02-assessment-strategy.md
+  - Modules:
+      - Module 1:
+          - Overview: modules/module-1/overview.md
+          - Lecture Notes: modules/module-1/lecture-notes.md
+          - Additional Reading: modules/module-1/additional-reading.md
+          - Q&A: modules/module-1/qa.md
+          - Exercises: modules/module-1/exercises.md
+          - Checkpoint: modules/module-1/checkpoint.md
+      - Module 2:
+          - Overview: modules/module-2/overview.md
+          - Lecture Notes: modules/module-2/lecture-notes.md
+          - Additional Reading: modules/module-2/additional-reading.md
+          - Q&A: modules/module-2/qa.md
+          - Exercises: modules/module-2/exercises.md
+          - Checkpoint: modules/module-2/checkpoint.md
+      - Module 3:
+          - Overview: modules/module-3/overview.md
+          - Lecture Notes: modules/module-3/lecture-notes.md
+          - Additional Reading: modules/module-3/additional-reading.md
+          - Q&A: modules/module-3/qa.md
+          - Exercises: modules/module-3/exercises.md
+          - Checkpoint: modules/module-3/checkpoint.md
+      - Module 4:
+          - Overview: modules/module-4/overview.md
+          - Lecture Notes: modules/module-4/lecture-notes.md
+          - Additional Reading: modules/module-4/additional-reading.md
+          - Q&A: modules/module-4/qa.md
+          - Exercises: modules/module-4/exercises.md
+          - Checkpoint: modules/module-4/checkpoint.md
+      - Module 5:
+          - Overview: modules/module-5/overview.md
+          - Lecture Notes: modules/module-5/lecture-notes.md
+          - Additional Reading: modules/module-5/additional-reading.md
+          - Q&A: modules/module-5/qa.md
+          - Exercises: modules/module-5/exercises.md
+          - Checkpoint: modules/module-5/checkpoint.md
+  - Requirements:
+      - Mid-Course Requirement: requirements/mid-course-requirement.md
+      - Final Project Requirement: requirements/final-project-requirement.md
+      - Grading Rubric: requirements/grading-rubric.md
+      - Submission Checklist: requirements/submission-checklist.md
+  - Team Playbook:
+      - AI Dev Workflow: team-playbook/ai-dev-workflow.md
+      - Prompting Standards: team-playbook/prompting-standards.md
+      - Code Review with AI: team-playbook/code-review-with-ai.md
+      - Facilitation Guide: team-playbook/facilitation-guide.md
+  - Practice:
+      - Labs: practice/labs.md
+      - Prompt Library: practice/prompt-library.md
+      - PRD Template: practice/templates/prd-template.md
+      - Task Breakdown Template: practice/templates/task-breakdown-template.md
+      - Prompt Template: practice/templates/prompt-template.md
