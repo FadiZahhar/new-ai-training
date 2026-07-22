@@ -135,6 +135,23 @@
   cursor: pointer;
 }
 
+.coach-list {
+  display: grid;
+  gap: 0.6rem;
+  margin-top: 0.6rem;
+}
+
+.coach-card {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  padding: 0.55rem 0.65rem;
+}
+
+.coach-meta {
+  font-size: 0.8rem;
+  opacity: 0.75;
+}
+
 .module-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -281,6 +298,12 @@
   opacity: 0.8;
 }
 
+.sim-check select {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 7px;
+  padding: 0.2rem 0.35rem;
+}
+
 .sim-score {
   border-top: 1px dashed var(--md-default-fg-color--lightest);
   margin-top: 0.8rem;
@@ -307,6 +330,38 @@
   border-radius: 8px;
   padding: 0.45rem 0.55rem;
   font: inherit;
+}
+
+.metric-grid {
+  display: grid;
+  gap: 0.6rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+.metric-card {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  padding: 0.5rem 0.6rem;
+}
+
+.score-bar {
+  width: 100%;
+  height: 10px;
+  border-radius: 999px;
+  background: var(--md-default-fg-color--lightest);
+  overflow: hidden;
+}
+
+.score-bar span {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, #26a69a, #7c4dff);
+}
+
+.trend-bar {
+  font-family: monospace;
+  font-size: 0.78rem;
+  letter-spacing: 0.5px;
 }
 
 .team-controls {
@@ -471,6 +526,10 @@
   }
 
   .evidence-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .metric-grid {
     grid-template-columns: 1fr;
   }
 

@@ -14,10 +14,15 @@ Use this interactive quiz board to make learning more playful:
 - Team Mode with progress export/import JSON leaderboard
 - Final Project Readiness Simulator with score-based feedback
 - Evidence Workspace with markdown export (ADR, prompt log, verification, release evidence)
-- Facilitator Mode for running cohort checkpoints
+- Cohort Session Packs with timed agenda blocks and runbook export
+- AI Coach feedback stream after each activity
+- Competency Rubric Engine (prompting, verification, review, release, ownership)
+- Capstone Workspace Generator for final project artifacts
+- Peer Review Mode for partner feedback checklists and export
+- Facilitator Broadcast Cards for workshop prompts and print flow
 - Challenge of the Day to keep daily engagement momentum
 - Boss Arena mixed challenge unlock after progression milestones
-- XP, levels, coins, badges, streaks, adaptive retry tips, speed bonus, and local analytics
+- XP, levels, coins, badges, streaks, adaptive retry tips, speed bonus, local analytics, and progress snapshots
 - Accessibility settings (reduced motion, high contrast, compact mobile mode, keyboard shortcuts)
 - Browser local storage save (resume where you left off)
 
