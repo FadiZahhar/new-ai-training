@@ -109,6 +109,32 @@
   background: var(--md-default-bg-color);
 }
 
+.daily-strip {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 10px;
+  padding: 0.55rem 0.7rem;
+  background: rgba(124, 77, 255, 0.08);
+}
+
+.daily-strip span {
+  margin-left: 0.5rem;
+  font-size: 0.85rem;
+  opacity: 0.85;
+}
+
+.daily-strip button {
+  border: 0;
+  border-radius: 8px;
+  padding: 0.4rem 0.75rem;
+  background: #7c4dff;
+  color: #fff;
+  cursor: pointer;
+}
+
 .module-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -120,6 +146,36 @@
   border: 1px solid var(--md-default-fg-color--lightest);
   border-radius: 10px;
   padding: 0.8rem;
+}
+
+.roadmap-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 0.7rem;
+}
+
+.roadmap-card {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 10px;
+  padding: 0.7rem;
+}
+
+.roadmap-card.open {
+  border-color: #7c4dff;
+}
+
+.roadmap-card.done {
+  border-color: #2e7d32;
+  background: rgba(46, 125, 50, 0.08);
+}
+
+.roadmap-card.locked {
+  opacity: 0.6;
+}
+
+.roadmap-step {
+  font-size: 0.82rem;
+  opacity: 0.8;
 }
 
 .module-card h4 {
@@ -138,6 +194,20 @@
 
 .quest-list li {
   margin: 0.2rem 0;
+}
+
+.plan-list {
+  margin: 0.5rem 0;
+  padding-left: 1.1rem;
+}
+
+.plan-list li {
+  margin: 0.25rem 0;
+}
+
+.done-step {
+  text-decoration: line-through;
+  opacity: 0.75;
 }
 
 .card-actions {
@@ -215,6 +285,28 @@
   border-top: 1px dashed var(--md-default-fg-color--lightest);
   margin-top: 0.8rem;
   padding-top: 0.6rem;
+}
+
+.evidence-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.6rem;
+  margin: 0.75rem 0;
+}
+
+.evidence-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.evidence-field textarea {
+  min-height: 120px;
+  resize: vertical;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  padding: 0.45rem 0.55rem;
+  font: inherit;
 }
 
 .team-controls {
@@ -327,4 +419,75 @@
 .hint {
   border-left: 3px solid #7c4dff;
   padding-left: 0.6rem;
+}
+
+.high-contrast {
+  border-color: #000;
+}
+
+.high-contrast .module-card,
+.high-contrast .panel-card,
+.high-contrast .sim-check,
+.high-contrast .stat-card {
+  border-color: #000;
+}
+
+.high-contrast .tab-btn.active,
+.high-contrast .daily-strip,
+.high-contrast .card-actions a {
+  background: #fff9c4;
+  color: #111;
+  border-color: #111;
+}
+
+.compact-mode .module-grid,
+.compact-mode .roadmap-grid {
+  grid-template-columns: 1fr;
+}
+
+.compact-mode .team-controls {
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.compact-mode .team-controls input[type="text"] {
+  min-width: auto;
+  width: 100%;
+}
+
+.reduced-motion * {
+  animation: none !important;
+  transition: none !important;
+}
+
+@media (max-width: 780px) {
+  .game-shell {
+    padding: 0.75rem;
+  }
+
+  .daily-strip {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .evidence-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .module-grid,
+  .roadmap-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tab-btn {
+    padding: 0.5rem 0.65rem;
+  }
+
+  .module-card button,
+  #next-step-btn,
+  #back-btn,
+  [data-action="start-boss"],
+  .daily-strip button {
+    width: 100%;
+  }
 }
