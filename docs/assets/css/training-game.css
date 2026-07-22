@@ -80,17 +80,46 @@
   font-size: 0.85rem;
 }
 
+.tab-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.tab-btn {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  background: var(--md-default-bg-color);
+  color: inherit;
+  padding: 0.4rem 0.75rem;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.tab-btn.active {
+  border-color: #7c4dff;
+  color: #4a148c;
+  background: rgba(124, 77, 255, 0.14);
+}
+
+.panel-card {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 10px;
+  padding: 0.9rem;
+  background: var(--md-default-bg-color);
+}
+
 .module-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 0.75rem;
+  margin-top: 0.75rem;
 }
 
 .module-card {
   border: 1px solid var(--md-default-fg-color--lightest);
   border-radius: 10px;
   padding: 0.8rem;
-  background: var(--md-default-bg-color);
 }
 
 .module-card h4 {
@@ -98,14 +127,22 @@
 }
 
 .module-card p {
-  margin: 0.35rem 0;
+  margin: 0.3rem 0;
   font-size: 0.9rem;
 }
 
+.card-actions {
+  margin-top: 0.6rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
 .module-card button,
-#next-question-btn,
-#back-to-dashboard {
-  margin-top: 0.5rem;
+#next-step-btn,
+#back-btn,
+[data-action="start-boss"] {
+  margin-top: 0.2rem;
   border: 0;
   border-radius: 8px;
   padding: 0.45rem 0.75rem;
@@ -114,10 +151,31 @@
   cursor: pointer;
 }
 
-.module-card button:hover,
-#next-question-btn:hover,
-#back-to-dashboard:hover {
+.module-card button[disabled],
+[data-action="start-boss"][disabled] {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.module-card button:hover:not([disabled]),
+#next-step-btn:hover,
+#back-btn:hover,
+[data-action="start-boss"]:hover:not([disabled]) {
   background: #5e35b1;
+}
+
+.card-actions a {
+  border: 1px solid #7c4dff;
+  color: #4a148c;
+  border-radius: 8px;
+  padding: 0.34rem 0.62rem;
+  text-decoration: none;
+  background: rgba(124, 77, 255, 0.08);
+  font-size: 0.86rem;
+}
+
+.card-actions a:hover {
+  background: rgba(124, 77, 255, 0.17);
 }
 
 .actions {

@@ -8,3 +8,8 @@
 2. Validate both client-side and server-side behavior.
 3. Use refactoring contracts and verification checklists to keep behavior stable.
 4. Debug with concrete evidence: status codes, payloads, logs, and failing tests.
+
+## Extracted context highlights from source
+- Module 3 explicitly transitions from backend-only API to a browser product surface with Kanban interactions.
+- Validation expectations include both UX states (loading/empty/error/ready) and backend contract checks.
+- AI suggestions should be accepted only after evidence-backed verification from browser/network/test output.

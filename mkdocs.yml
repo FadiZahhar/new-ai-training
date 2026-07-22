@@ -61,6 +61,8 @@ nav:
       - Final Project Requirement: requirements/final-project-requirement.md
       - Grading Rubric: requirements/grading-rubric.md
       - Submission Checklist: requirements/submission-checklist.md
+  - References:
+      - Extracted Reference Map: references/extracted-reference-map.md
   - Team Playbook:
       - AI Dev Workflow: team-playbook/ai-dev-workflow.md
       - Prompting Standards: team-playbook/prompting-standards.md
