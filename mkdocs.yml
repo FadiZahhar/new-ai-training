@@ -2,6 +2,10 @@ site_name: AI Training Program
 site_description: Team learning journey to become better AI-assisted developers
 repo_name: FadiZahhar/new-ai-training
 repo_url: https://github.com/FadiZahhar/new-ai-training
+extra_css:
+  - assets/css/training-game.css
+extra_javascript:
+  - assets/js/training-game.js
 theme:
   name: material
   features:
