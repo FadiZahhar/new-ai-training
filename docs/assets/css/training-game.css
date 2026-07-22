@@ -131,6 +131,15 @@
   font-size: 0.9rem;
 }
 
+.quest-list {
+  margin: 0.5rem 0;
+  padding-left: 1rem;
+}
+
+.quest-list li {
+  margin: 0.2rem 0;
+}
+
 .card-actions {
   margin-top: 0.6rem;
   display: flex;
@@ -180,6 +189,78 @@
 
 .actions {
   margin-top: 1rem;
+}
+
+.sim-grid {
+  display: grid;
+  gap: 0.45rem;
+  margin: 0.75rem 0;
+}
+
+.sim-check {
+  display: flex;
+  gap: 0.5rem;
+  align-items: flex-start;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  padding: 0.45rem 0.55rem;
+}
+
+.sim-check em {
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+
+.sim-score {
+  border-top: 1px dashed var(--md-default-fg-color--lightest);
+  margin-top: 0.8rem;
+  padding-top: 0.6rem;
+}
+
+.team-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.team-controls input[type="text"] {
+  padding: 0.45rem 0.6rem;
+  border-radius: 8px;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  min-width: 180px;
+}
+
+.import-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  border: 1px solid #7c4dff;
+  border-radius: 8px;
+  padding: 0.35rem 0.6rem;
+  background: rgba(124, 77, 255, 0.08);
+  cursor: pointer;
+  font-size: 0.88rem;
+}
+
+.import-label input {
+  display: none;
+}
+
+.team-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.team-table th,
+.team-table td {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  padding: 0.4rem 0.5rem;
+  text-align: left;
+}
+
+.team-table th {
+  background: rgba(124, 77, 255, 0.08);
 }
 
 .reset-btn {
@@ -241,4 +322,9 @@
 
 .bad {
   color: #b71c1c;
+}
+
+.hint {
+  border-left: 3px solid #7c4dff;
+  padding-left: 0.6rem;
 }
