@@ -10,7 +10,6 @@ extra_javascript:
   - assets/js/training-game.js
   - assets/js/docs-meta.js
   - assets/js/prompt-generator.js
-  - assets/js/certificate-generator.js
 theme:
   name: material
   features:
@@ -79,10 +78,7 @@ nav:
       - Labs: practice/labs.md
       - Prompt Library: practice/prompt-library.md
       - Prompt Generator Tool: practice/prompt-generator.md
-      - Certificate Generator: practice/certificate-generator.md
       - Template Bundles: practice/template-bundles.md
       - PRD Template: practice/templates/prd-template.md
       - Task Breakdown Template: practice/templates/task-breakdown-template.md
       - Prompt Template: practice/templates/prompt-template.md
-  - Arabic (Starter):
-      - ابدأ هنا: i18n/ar/start-here.md
